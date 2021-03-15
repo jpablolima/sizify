@@ -7,7 +7,7 @@ from urllib.error import URLError
 # http://35.237.182.83:3000/users/sign_in
 
 try:
-    url = urlopen("http://35.237.182.83:3000/users/sign_in")
+    url = urlopen("http://35.237.182.83:3000/users/")
 except HTTPError as erro:
     print(erro)
 except URLError:
